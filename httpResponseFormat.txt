@@ -1,0 +1,16 @@
+Status-Line = HTTP-Version SP Status-Code SP Reason-Phrase CRLF
+                *(( general-header        ; Section 4.5
+                | response-header        ; Section 6.2
+                | entity-header ) CRLF)  ; Section 7.1
+                CRLF
+                [ message-body ]  
+
+HTTP Version | HTTP/1.1
+
+  The HTTP protocol does not place any a priori limit on the length of
+   a URI. Servers MUST be able to handle the URI of any resource they
+   serve, and SHOULD be able to handle URIs of unbounded length if they
+   provide GET-based forms that could generate such URIs. A server
+   SHOULD return 414 (Request-URI Too Long) status if a URI is longer
+   than the server can handle (see section 10.4.15).
+

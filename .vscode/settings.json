@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "winsock2.h": "c",
+        "ws2tcpip.h": "c",
+        "server.h": "c",
+        "windows.h": "c",
+        "winsockhelper.h": "c"
+    }
+}

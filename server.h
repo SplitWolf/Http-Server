@@ -1,0 +1,1 @@
+int initWinsock(WSADATA *wsaData);
