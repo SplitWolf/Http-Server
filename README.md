@@ -6,6 +6,9 @@ Currently Built for Windows using the windows sockets library
 # Build Guide
 
 To build run:
-`make server`
+`mkdir build`
+`cd build`
+`cmake ..`
+`cmake --build.`
 
-Then run by executing the `server` binary
+Then run by executing the `HttpServer` binary
