@@ -41,7 +41,7 @@ void sendHttpResponse(int* fd) {
     char *crlf = "\r\n";
 
 
-    const char* path = "./index.html";
+    const char* path = "D:\\dev\\C\\Http-Server\\index.html";
     FILE *fptr = {0};
     size_t file_size = {0};
 
